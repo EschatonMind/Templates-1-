@@ -1,10 +1,11 @@
 #include"Temp.h"
-int Temp<class T>::count = 0;
+int Temp<class T>::count = 0; // obj counter initialization
 
 template<typename K>
 void print(K n) {
 	cout << n << endl;
 }
+
 int main() {
 
 	Temp<int> t1(23);

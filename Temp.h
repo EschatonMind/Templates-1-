@@ -20,4 +20,3 @@ public:
 		cout << obj << flush << endl;
 	}
 };
-
